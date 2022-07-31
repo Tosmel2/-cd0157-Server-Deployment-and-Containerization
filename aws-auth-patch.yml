@@ -5,7 +5,7 @@ apiVersion: v1
 data:
   mapRoles: |
     - groups:
-      - system:main
+      - system:masters
       rolearn: arn:aws:iam::413519881049:role/UdacityFlaskDeployCBKubectlRole
       username: build
 kind: ConfigMap
